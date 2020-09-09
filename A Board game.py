@@ -10,7 +10,7 @@ for i in range(r):
 i = 0
 j = 0
 score = 0
-while(i<r-1 and j<=r-1):
+while(i<r-1 and j<=c-1):
     if(j<c-1):
         if(arr1[i+1][j] > arr1[i][j+1]):
             j += 1
